@@ -5,12 +5,12 @@
 - rmdir /S /Q
 
 ### Criar chave SSH
-- ssh-keygen -t id25519 -C (email)
+- ssh-keygen -t ed25519 -C (email)
 - cd diretorio-da-chave
-- cat id**.pub
+- cat ed**.pub
 - Adiciona no gitHub
 - eval $(ssh-agent -s)
-- ssh-add id**
+- ssh-add ed**
 
 ### Comandos git
 - git init
